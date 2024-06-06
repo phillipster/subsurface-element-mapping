@@ -39,48 +39,60 @@
         <LatestWKID>3857</LatestWKID>
       </SpatialReference>
       <SourceGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>747.20184765133968</Double>
-        <Double>-334.22834408098669</Double>
         <Double>628.53420118065117</Double>
         <Double>-294.39746103215782</Double>
-        <Double>431.69524236572033</Double>
-        <Double>-421.63741101580672</Double>
         <Double>211.52165360433537</Double>
         <Double>-586.58641849120613</Double>
-        <Double>514.53250146551181</Double>
-        <Double>-513.18274401163217</Double>
-        <Double>582.76655469576872</Double>
-        <Double>-192.23765352868941</Double>
-        <Double>618.53939629557317</Double>
-        <Double>-82.718495326233096</Double>
-        <Double>546.20481576326529</Double>
-        <Double>-422.15307418373413</Double>
-        <Double>198.27897181949265</Double>
-        <Double>-547.36485257686581</Double>
-        <Double>690.29353609286954</Double>
-        <Double>-448.56315766007174</Double>
+        <Double>813.73233406536747</Double>
+        <Double>-77.1287815264659</Double>
+        <Double>885.37161012197794</Double>
+        <Double>-475.86047839140519</Double>
+        <Double>660.27768813679722</Double>
+        <Double>-390.28246635443065</Double>
+        <Double>823.43883764704697</Double>
+        <Double>-388.34995784389321</Double>
+        <Double>600.92203069681091</Double>
+        <Double>-33.619680378818884</Double>
+        <Double>637.91716349242597</Double>
+        <Double>-556.940608363715</Double>
+        <Double>809.95357920051174</Double>
+        <Double>-630.76519028027542</Double>
+        <Double>610.53239064977242</Double>
+        <Double>-614.40630771277938</Double>
+        <Double>502.53657966684477</Double>
+        <Double>-425.99026616930496</Double>
+        <Double>807.21531610736565</Double>
+        <Double>-320.85212532849982</Double>
+        <Double>746.9428962729362</Double>
+        <Double>-336.29527949122712</Double>
       </SourceGCPs>
       <TargetGCPs xsi:type="typens:ArrayOfDouble">
-        <Double>-8236195.170502115</Double>
-        <Double>4966396.7861277889</Double>
         <Double>-8236828.6117654983</Double>
         <Double>4966581.9201628082</Double>
-        <Double>-8237977.8111147517</Double>
-        <Double>4965900.1110889968</Double>
         <Double>-8239217.8042523982</Double>
         <Double>4964985.8007227359</Double>
-        <Double>-8237518.188113817</Double>
-        <Double>4965383.6407288201</Double>
-        <Double>-8237093.849187443</Double>
-        <Double>4967185.3455649903</Double>
-        <Double>-8236863.868732119</Double>
-        <Double>4967817.4060491798</Double>
-        <Double>-8237333.8074245173</Double>
-        <Double>4965886.599305382</Double>
-        <Double>-8239315.3596866773</Double>
-        <Double>4965214.5556408791</Double>
-        <Double>-8236528.0513138352</Double>
-        <Double>4965743.8698162436</Double>
+        <Double>-8235763.084585472</Double>
+        <Double>4967832.1314747296</Double>
+        <Double>-8235419.9851050144</Double>
+        <Double>4965529.1562562501</Double>
+        <Double>-8236677.4906393401</Double>
+        <Double>4966056.693748625</Double>
+        <Double>-8235760.1148307398</Double>
+        <Double>4966057.703001231</Double>
+        <Double>-8236971.8118977807</Double>
+        <Double>4968073.6467812136</Double>
+        <Double>-8236839.3190729916</Double>
+        <Double>4965146.0462906752</Double>
+        <Double>-8235849.7875040183</Double>
+        <Double>4964691.5926070362</Double>
+        <Double>-8236992.5014310256</Double>
+        <Double>4964846.6781892488</Double>
+        <Double>-8237576.6099965703</Double>
+        <Double>4965863.9968313407</Double>
+        <Double>-8235859.2617086964</Double>
+        <Double>4966455.7239579866</Double>
+        <Double>-8236194.8749021469</Double>
+        <Double>4966399.0803810321</Double>
       </TargetGCPs>
       <Name />
     </GeodataXform>
