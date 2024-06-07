@@ -1,0 +1,95 @@
+<PAMDataset>
+  <Metadata>
+    <MDI key="EXIF_DateTime">2015:10:20 02:29:24</MDI>
+    <MDI key="EXIF_Orientation">1</MDI>
+    <MDI key="EXIF_Software">Microsoft Windows Photo Viewer 10.0.10240.16384</MDI>
+  </Metadata>
+  <Metadata domain="xml:ESRI" format="xml">
+    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/3.3.0">
+      <PolynomialOrder>-4</PolynomialOrder>
+      <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+        <WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
+        <XOrigin>-20037700</XOrigin>
+        <YOrigin>-30241100</YOrigin>
+        <XYScale>148923141.92838538</XYScale>
+        <ZOrigin>-100000</ZOrigin>
+        <ZScale>10000</ZScale>
+        <MOrigin>-100000</MOrigin>
+        <MScale>10000</MScale>
+        <XYTolerance>0.001</XYTolerance>
+        <ZTolerance>0.001</ZTolerance>
+        <MTolerance>0.001</MTolerance>
+        <HighPrecision>true</HighPrecision>
+        <WKID>102100</WKID>
+        <LatestWKID>3857</LatestWKID>
+      </SpatialReference>
+      <SourceGCPs xsi:type="typens:ArrayOfDouble">
+        <Double>2403.7240655411397</Double>
+        <Double>-2627.8545174574433</Double>
+        <Double>3460.908249406029</Double>
+        <Double>-1249.0947691259571</Double>
+        <Double>3613.9719238262624</Double>
+        <Double>-2200.7145536611788</Double>
+        <Double>2508.711268980056</Double>
+        <Double>-1256.5227278498933</Double>
+        <Double>2167.5135635617189</Double>
+        <Double>-1993.4370511691086</Double>
+        <Double>2845.5425203032792</Double>
+        <Double>-1958.0099890632555</Double>
+        <Double>3148.4203486954793</Double>
+        <Double>-1254.5210016374476</Double>
+        <Double>2230.7086390317418</Double>
+        <Double>-2195.6254307678901</Double>
+        <Double>3473.2451995485462</Double>
+        <Double>-1853.2673330930993</Double>
+      </SourceGCPs>
+      <TargetGCPs xsi:type="typens:ArrayOfDouble">
+        <Double>-8241185.1955563938</Double>
+        <Double>4958798.7755056275</Double>
+        <Double>-8239574.5792198759</Double>
+        <Double>4959143.9282931117</Double>
+        <Double>-8240023.1593724201</Double>
+        <Double>4958296.8680989584</Double>
+        <Double>-8240310.2199574523</Double>
+        <Double>4959727.6939157862</Double>
+        <Double>-8241019.4915692573</Double>
+        <Double>4959333.5022007953</Double>
+        <Double>-8240477.2142852936</Double>
+        <Double>4958967.0749014858</Double>
+        <Double>-8239824.9666687213</Double>
+        <Double>4959343.4586915579</Double>
+        <Double>-8241081.0801305044</Double>
+        <Double>4959133.7429623259</Double>
+        <Double>-8239912.5911102388</Double>
+        <Double>4958647.1519788615</Double>
+      </TargetGCPs>
+      <Name />
+    </GeodataXform>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Histograms>
+      <HistItem>
+        <HistMin>-0.5</HistMin>
+        <HistMax>255.5</HistMax>
+        <BucketCount>256</BucketCount>
+        <IncludeOutOfRange>1</IncludeOutOfRange>
+        <Approximate>0</Approximate>
+        <HistCounts>797309|63770|56390|46292|44669|33919|31770|27374|23095|22515|18748|18614|16637|13271|12045|10644|8485|6877|5621|4332|3885|3231|2309|1838|1852|1034|552|828|602|631|466|345|350|200|138|179|354|286|85|113|3|11|8|1|6|1|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|0|1|2|2|4|5|165|101|328|473|144|179|187|306|317|426|801|625|865|582|974|2071|1887|2436|2927|4100|4426|5810|7522|8569|11304|12412|13621|17846|19560|19083|24040|24193|28839|33591|36095|46922|51333|60459|71431|22661119</HistCounts>
+      </HistItem>
+    </Histograms>
+    <Metadata domain="IMAGE_STRUCTURE">
+      <MDI key="COMPRESSION">JPEG</MDI>
+    </Metadata>
+    <Metadata>
+      <MDI key="STATISTICS_COUNT">24459768.000000</MDI>
+      <MDI key="STATISTICS_COVARIANCES">3160.481601037475</MDI>
+      <MDI key="STATISTICS_MAXIMUM">255</MDI>
+      <MDI key="STATISTICS_MEAN">241.63084085671</MDI>
+      <MDI key="STATISTICS_MEDIAN">255.000000</MDI>
+      <MDI key="STATISTICS_MINIMUM">0</MDI>
+      <MDI key="STATISTICS_SKIPFACTORX">1</MDI>
+      <MDI key="STATISTICS_SKIPFACTORY">1</MDI>
+      <MDI key="STATISTICS_STDDEV">56.218160776011</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>
