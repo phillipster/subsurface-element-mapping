@@ -1,0 +1,6 @@
+﻿help()
+print('Hello')
+version()
+exit()
+help()
+input()
