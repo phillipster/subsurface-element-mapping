@@ -5,45 +5,118 @@
     <MDI key="SOURCE_COLOR_SPACE">YCbCr</MDI>
   </Metadata>
   <Metadata domain="xml:ESRI" format="xml">
-    <GeodataXform xsi:type="typens:PolynomialXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/3.3.0">
-      <PolynomialOrder>1</PolynomialOrder>
-      <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
-        <WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
-        <XOrigin>-20037700</XOrigin>
-        <YOrigin>-30241100</YOrigin>
-        <XYScale>148923141.92838538</XYScale>
-        <ZOrigin>-100000</ZOrigin>
-        <ZScale>10000</ZScale>
-        <MOrigin>-100000</MOrigin>
-        <MScale>10000</MScale>
-        <XYTolerance>0.001</XYTolerance>
-        <ZTolerance>0.001</ZTolerance>
-        <MTolerance>0.001</MTolerance>
-        <HighPrecision>true</HighPrecision>
-        <WKID>102100</WKID>
-        <LatestWKID>3857</LatestWKID>
-      </SpatialReference>
-      <CoeffX xsi:type="typens:ArrayOfDouble">
-        <Double>-8236785.4882827597</Double>
-        <Double>0.11583202940932913</Double>
-        <Double>0.064633706433859697</Double>
-      </CoeffX>
-      <CoeffY xsi:type="typens:ArrayOfDouble">
-        <Double>4976208.8382475767</Double>
-        <Double>-0.064633706433859697</Double>
-        <Double>0.11583202940932913</Double>
-      </CoeffY>
-      <InverseCoeffX xsi:type="typens:ArrayOfDouble">
-        <Double>72506121.739127293</Double>
-        <Double>6.5833945472748239</Double>
-        <Double>-3.6735019897058208</Double>
-      </InverseCoeffX>
-      <InverseCoeffY xsi:type="typens:ArrayOfDouble">
-        <Double>-2502498.2518331413</Double>
-        <Double>3.6735019897058203</Double>
-        <Double>6.5833945472748248</Double>
-      </InverseCoeffY>
-      <Name />
+    <GeodataXform xsi:type="typens:CompositeXform" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:typens="http://www.esri.com/schemas/ArcGIS/3.3.0">
+      <XF_0 xsi:type="typens:PolynomialXform">
+        <PolynomialOrder>1</PolynomialOrder>
+        <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+          <WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
+          <XOrigin>-20037700</XOrigin>
+          <YOrigin>-30241100</YOrigin>
+          <XYScale>148923141.92838538</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>0.001</XYTolerance>
+          <ZTolerance>0.001</ZTolerance>
+          <MTolerance>0.001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+          <WKID>102100</WKID>
+          <LatestWKID>3857</LatestWKID>
+        </SpatialReference>
+        <CoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>-8236785.4882827597</Double>
+          <Double>0.11583202940932913</Double>
+          <Double>0.064633706433859697</Double>
+        </CoeffX>
+        <CoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>4976208.8382475767</Double>
+          <Double>-0.064633706433859697</Double>
+          <Double>0.11583202940932913</Double>
+        </CoeffY>
+        <InverseCoeffX xsi:type="typens:ArrayOfDouble">
+          <Double>72506121.739127293</Double>
+          <Double>6.5833945472748239</Double>
+          <Double>-3.6735019897058208</Double>
+        </InverseCoeffX>
+        <InverseCoeffY xsi:type="typens:ArrayOfDouble">
+          <Double>-2502498.2518331413</Double>
+          <Double>3.6735019897058203</Double>
+          <Double>6.5833945472748248</Double>
+        </InverseCoeffY>
+        <Name />
+      </XF_0>
+      <XF_1 xsi:type="typens:SplineXform">
+        <SpatialReference xsi:type="typens:ProjectedCoordinateSystem">
+          <WKT>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</WKT>
+          <XOrigin>-20037700</XOrigin>
+          <YOrigin>-30241100</YOrigin>
+          <XYScale>148923141.92838538</XYScale>
+          <ZOrigin>-100000</ZOrigin>
+          <ZScale>10000</ZScale>
+          <MOrigin>-100000</MOrigin>
+          <MScale>10000</MScale>
+          <XYTolerance>0.001</XYTolerance>
+          <ZTolerance>0.001</ZTolerance>
+          <MTolerance>0.001</MTolerance>
+          <HighPrecision>true</HighPrecision>
+          <WKID>102100</WKID>
+          <LatestWKID>3857</LatestWKID>
+        </SpatialReference>
+        <SourceGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>-8236643.0648842789</Double>
+          <Double>4975568.2360038767</Double>
+          <Double>-8236626.4578609038</Double>
+          <Double>4975681.6565773766</Double>
+          <Double>-8236394.8009421602</Double>
+          <Double>4975336.6238224739</Double>
+          <Double>-8236477.9021445494</Double>
+          <Double>4975863.6179106832</Double>
+          <Double>-8236513.9137032237</Double>
+          <Double>4975884.6252583573</Double>
+          <Double>-8236465.8288401179</Double>
+          <Double>4975885.5366065986</Double>
+          <Double>-8236424.7737137172</Double>
+          <Double>4975956.9004170243</Double>
+          <Double>-8236239.1719821291</Double>
+          <Double>4975727.727998781</Double>
+          <Double>-8236229.2114885375</Double>
+          <Double>4975628.6106247753</Double>
+          <Double>-8236753.167002026</Double>
+          <Double>4976138.2233937765</Double>
+          <Double>-8236897.7495035483</Double>
+          <Double>4975879.7429356938</Double>
+          <Double>-8236683.7856811089</Double>
+          <Double>4975496.1621661438</Double>
+        </SourceGCPs>
+        <TargetGCPs xsi:type="typens:ArrayOfDouble">
+          <Double>-8236643.0704361452</Double>
+          <Double>4975568.3311966639</Double>
+          <Double>-8236624.2597885234</Double>
+          <Double>4975675.2236104487</Double>
+          <Double>-8236394.799359601</Double>
+          <Double>4975336.6315032644</Double>
+          <Double>-8236483.030416064</Double>
+          <Double>4975853.775737552</Double>
+          <Double>-8236517.0687841391</Double>
+          <Double>4975872.8849957716</Double>
+          <Double>-8236474.0729381489</Double>
+          <Double>4975873.3328666668</Double>
+          <Double>-8236433.7643180536</Double>
+          <Double>4975944.544746465</Double>
+          <Double>-8236249.8362256289</Double>
+          <Double>4975725.0865028771</Double>
+          <Double>-8236240.1336050183</Double>
+          <Double>4975625.9575666972</Double>
+          <Double>-8236749.3660402494</Double>
+          <Double>4976119.2151936889</Double>
+          <Double>-8236889.6988665182</Double>
+          <Double>4975865.5701143965</Double>
+          <Double>-8236684.5733592547</Double>
+          <Double>4975496.970084005</Double>
+        </TargetGCPs>
+      </XF_1>
+      <RequireDEM>false</RequireDEM>
     </GeodataXform>
   </Metadata>
   <PAMRasterBand band="1">
