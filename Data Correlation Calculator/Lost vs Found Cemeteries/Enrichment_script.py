@@ -3,8 +3,8 @@ import scipy.stats as stats
 
 # # Create a DataFrame
 #
-existent_df = pd.read_csv('existing_cemeteries.csv')
-lost_df = pd.read_csv('lost_cemeteries.csv')
+existent_df = pd.read_csv('Existing Cemeteries.csv')
+lost_df = pd.read_csv('Lost Cemeteries.csv')
 
 # print(df)
 #
